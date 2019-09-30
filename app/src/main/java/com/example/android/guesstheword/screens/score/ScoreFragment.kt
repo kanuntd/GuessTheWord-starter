@@ -65,7 +65,6 @@ class ScoreFragment : Fragment() {
 
         binding.scoreText.text = viewModel.score.toString()
 
-        binding.playAgainButton.setOnClickListener {  viewModel.onPlayAgain()  }
         return binding.root
     }
 }
